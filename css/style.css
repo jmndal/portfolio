@@ -1,12 +1,12 @@
 /* * FONT FACE */
 @font-face {
   font-family: 'Noto_Serif';
-  src: url('/Noto_Serif/NotoSerif-Regular.ttf') format('truetype');
+  src: url('Noto_Serif/NotoSerif-Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Noto_Sans';
-  src: url('/Noto_Sans/NotoSans-Regular.ttf') format('truetype');
+  src: url('Noto_Sans/NotoSans-Regular.ttf') format('truetype');
 }
 
 /* END 
