@@ -1,12 +1,12 @@
 /* * FONT FACE */
 @font-face {
   font-family: 'Noto_Serif';
-  src: url('/Noto_Serif/NotoSerif-Regular.ttf') format('truetype');
+  src: url('Noto_Serif/NotoSerif-Regular.ttf') format('truetype');
 }
 
 @font-face {
   font-family: 'Noto_Sans';
-  src: url('/Noto_Sans/NotoSans-Regular.ttf') format('truetype');
+  src: url('Noto_Sans/NotoSans-Regular.ttf') format('truetype');
 }
 
 /* END 
@@ -194,6 +194,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
+  align-items: center;
 }
 
 #left-side {
@@ -1056,7 +1057,6 @@ input[type=text] {
   font-size: 15px;
   cursor: pointer;
 }
-
 
 @media screen and (max-width: 400px) {
   body {
