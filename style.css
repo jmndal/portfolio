@@ -418,6 +418,23 @@
   display: flex;
 }
 
+.res-btn h2 {
+  font-family: var(--header);
+  font-size: 30px;
+  color: var(--text);
+  margin: 5px;
+}
+
+.res-btn button {
+  background-color: var(--hover-color);
+  color: var(--text);
+  border: 1px solid var(--text);
+  padding: 5px 15px 5px 15px;
+  border-radius: 15px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
 #button3:hover {
   background-color: var(--primary);
   color: var(--secondary);
@@ -555,7 +572,9 @@
   text-align: center;
 }
 
-/* End of Work Experience */
+/* End of Work Experience 
+
+* Start of Education */
 
 .cnt-educ {
   width: 100%;
@@ -716,6 +735,9 @@
   color: var(--text);
   text-align: center;
 }
+/* End of Education
+
+* Start of Project */
 
 .prjct {
   display: flex;
@@ -768,6 +790,10 @@
   margin: 15px;
 }
 
+/* End of Project
+
+* Start of Award */
+
 .wrd-box1 {
   display: flex;
   background-color: var(--secondary);
@@ -809,6 +835,9 @@
   color: var(--text);
   text-align: center;
 }
+/* End of Award
+
+* Start of Certificates */
 
 .crts {
   display: flex;
@@ -926,6 +955,9 @@
   color: var(--text);
   font-size: 18px;
 }
+/* End of Certs
+
+* Start of Skills */
 
 .skills {
   padding-bottom: 3rem;
@@ -962,25 +994,8 @@
   justify-content: center;
   align-items: center;
 }
-
-.res-btn h2 {
-  font-family: var(--header);
-  font-size: 30px;
-  color: var(--text);
-  margin: 5px;
-}
-
-.res-btn button {
-  background-color: var(--hover-color);
-  color: var(--text);
-  border: 1px solid var(--text);
-  padding: 5px 15px 5px 15px;
-  border-radius: 15px;
-  font-size: 15px;
-  cursor: pointer;
-}
-
 /* End of Skills */
+
 /* End of Resume Container
 
 * Start of Contact */
