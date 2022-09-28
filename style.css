@@ -9,6 +9,11 @@
   src: url('Noto_Sans/NotoSans-Regular.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Arvo';
+  src: url('Arvo/Arvo-Regular.ttf') format('truetype');
+}
+
 /* END 
 
 * Colors & text*/
@@ -21,7 +26,7 @@
   --hover-color: #6F7C50;
   --shadow: #2D3639;
   --header: 'Noto_Serif';
-  --content: 'Noto_Sans';
+  --content: 'Arvo';
 }
 
 * {
