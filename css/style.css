@@ -53,6 +53,7 @@
   align-items: center;
 }
 
+/*
 #navbar .jma {
   font-size: 10px;
   color: var(--text);
@@ -73,6 +74,7 @@
 #navbar .jma:active {
   text-decoration: none;
 }
+*/
 
 #nav-arc {
   display: flex;
