@@ -53,6 +53,12 @@
   align-items: center;
 }
 
+.jma img {
+  height: 25px;
+  width: 25px;
+  margin: 15px;
+}
+
 /*
 #navbar .jma {
   font-size: 10px;
